@@ -17,4 +17,8 @@ class Customer
   def save 
     @@all << self 
   end 
+  
+  def new_meal
+    
+  end 
 end
