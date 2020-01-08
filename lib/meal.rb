@@ -20,4 +20,8 @@ def save
   @@all << self 
 end 
 
+def meals
+  
+end 
+
 end
