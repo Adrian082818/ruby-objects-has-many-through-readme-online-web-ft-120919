@@ -9,6 +9,7 @@ def initialize(name, customer, total, tip)
   @customer =customer
   @total = total
   @tip = tip 
+  save
 end 
 
 def self.all
