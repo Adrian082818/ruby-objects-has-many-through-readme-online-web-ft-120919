@@ -21,7 +21,7 @@ def save
 end 
 
 def meals
-  
+  Meal.all.select {||}
 end 
 
 end
