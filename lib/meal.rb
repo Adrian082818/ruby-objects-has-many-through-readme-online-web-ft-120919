@@ -4,8 +4,8 @@ attr_accessor :waiter, :customer, :total, :tip
 
 @@all = []
 
-def initialize(name, customer, total, tip=0)
-  @name = name 
+def initialize(waiter, customer, total, tip=0)
+  @waiter = waiter 
   @customer =customer
   @total = total
   @tip = tip 
