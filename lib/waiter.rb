@@ -18,7 +18,7 @@ def save
   @@all << self 
 end 
 
-def new_meal(customer, total, tip)
-  
+def new_meal(customer, total, tip=0)
+  Meal.new()
 end 
 end
